@@ -114,7 +114,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):  # Token doğru
         close_connection(cursor, conn)
 
 
-
+# sdgsd
 
 # Kullanıcı aktifliğini kontrol etme
 def user_is_login(current_user:dict= Depends(get_current_user)):
