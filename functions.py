@@ -114,7 +114,6 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):  # Token doğru
         close_connection(cursor, conn)
 
 
-# dhudfhj
 
 
 # Kullanıcı aktifliğini kontrol etme
